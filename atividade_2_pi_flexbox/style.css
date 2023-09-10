@@ -1,0 +1,38 @@
+#div_pai {
+    width: 80%;
+    height: 500px;
+    border: solid 3px #000; 
+    margin: auto;
+    display: flex;
+
+    /* ALINHAMENTO HORIZONTAL */
+    justify-content: space-between;
+    
+    /* ALINHAMENTO VERTICAL */
+    align-items: start;
+
+    /* ORGANIZAÇÃO DOS ELEMENTOS */
+    flex-direction: column;
+    /* column inverte align com justify */
+    
+    
+    
+}
+
+.div_filho {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cor1{
+    background-color: red;
+}
+
+.cor2{
+    background-color: blue;
+}
+
+.cor3{
+    background-color: orange;
+}
